@@ -14205,7 +14205,7 @@ w_metadata arial fonts \
 
 load_arial()
 {
-    w_download_to corefonts "https://mirrors.kernel.org/gentoo/distfiles/5e/arial32.exe" 85297a4d146e9c87ac6f74822734bdee5f4b2a722d7eaa584b7f2cbf76f478f6
+    w_download_to corefonts "https://github.com/pushcx/corefonts/raw/master/arial32.exe" 85297a4d146e9c87ac6f74822734bdee5f4b2a722d7eaa584b7f2cbf76f478f6
     w_download_to corefonts "https://mirrors.kernel.org/gentoo/distfiles/5d/arialb32.exe" a425f0ffb6a1a5ede5b979ed6177f4f4f4fdef6ae7c302a7b7720ef332fec0a8
 
     w_try_cabextract -d "${W_TMP}" "${W_CACHE}"/corefonts/arial32.exe
